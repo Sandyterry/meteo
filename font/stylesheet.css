@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Rustic Pantry';
+    src: url('RusticPantryRegular.woff2') format('woff2'),
+        url('RusticPantryRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantry';
+    src: url('PantryRegular.woff2') format('woff2'),
+        url('PantryRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rustic Pantry';
+    src: url('RusticPantryRegular.woff2') format('woff2'),
+        url('RusticPantryRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantry';
+    src: url('PantryRegular.woff2') format('woff2'),
+        url('PantryRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

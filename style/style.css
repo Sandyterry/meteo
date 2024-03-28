@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "Rustic Pantry";
+  src: url("../font/RusticPantryRegular.woff2") format("woff2"),
+    url("../font/RusticPantryRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pantry";
+  src: url("../font/PantryRegular.woff2") format("woff2"),
+    url("../font/PantryRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  /* background-image: url("../img/bg.png");
+  background-size: cover; */
+  /* background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin: 0;
+}
+
+header {
+  font-family: "Pantry";
+  font-size: 35px;
+  color: white;
+  background: rgb(142, 228, 255);
+  background: radial-gradient(
+    circle,
+    rgba(142, 228, 255, 1) 62%,
+    rgba(139, 222, 255, 1) 100%
+  );
+  height: 15vh;
+  width: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+section {
+  background-position: center;
+  margin: 0;
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  background-position: top;
+}
+
+header img {
+  height: 100px;
+  width: auto;
+  margin-left: 10px;
+  margin-right: 35px;
+}
+
+.infoMeteo {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: white;
+  background: rgb(141, 194, 60);
+  background: linear-gradient(
+    120deg,
+    rgba(141, 194, 60, 1) 82%,
+    rgba(194, 216, 65, 1) 100%
+  );
+  width: 180px;
+  height: 400px;
+  border-radius: 3%;
+  z-index: 1;
+}
+
+.infoMeteo p {
+  font-size: 1.2em;
+  margin: 7%;
+}
+
+.infoMeteo img {
+  width: auto;
+  height: 50px;
+}
+
+.carte {
+  position: absolute;
+  width: 785px;
+  height: 715px;
+  background-image: url("../img/carte-france.webp");
+  background-size: contain;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  background-color: aliceblue;
+  border: 2px solid #0071bc;
+  border-radius: 50%;
+  position: absolute;
+  font-size: 1.3em;
+  color: aliceblue;
+}
+
+.Lille {
+  transform: translate(388px, 19px);
+}
+
+.Strasbourg {
+  transform: translate(615px, 170px);
+}
+
+.Paris {
+  transform: translate(364px, 158px);
+}
+
+.Nantes {
+  transform: translate(181px, 270px);
+}
+
+.Bordeaux {
+  transform: translate(205px, 466px);
+}
+
+.Lyon {
+  transform: translate(485px, 374px);
+}
+
+.Nice {
+  transform: translate(615px, 517px);
+}
+
+.Marseille {
+  transform: translate(529px, 571px);
+}
+
+.Montpellier {
+  transform: translate(440px, 550px);
+}
+
+.Toulouse {
+  transform: translate(330px, 531px);
+}
